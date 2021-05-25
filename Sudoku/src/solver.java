@@ -133,6 +133,7 @@ public class solver extends Panel2 implements ActionListener,MouseListener {
 	// clears the board 
 	public static void resets(){
 		Color electricblue = new Color(0, 123, 255);
+		msg.setText("");
 		for(int i=0; i<9; i++){
 			for(int j=0; j<9; j++){
 				original[i][j]=0;
