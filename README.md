@@ -1,2 +1,2 @@
-# TC2006
-Final Project of the Programming Languages Course 2021
+# Using the nature of prolog to our advantage.
+The present project makes usage of the constraint logic programming paradigm to be able to design a Sudoku solver with symbolic AI. The solution is implemented using Prolog for the logic of the program and java for the GUI, consequently, I used the JPL library to connect both of the aforementioned. The solver consists of a combination of constraint propagation and labeling (search) for the solution to be truly effective. This program was tested using easy, medium and the hardest Sudoku puzzle ever according to The Telegraph to prove its efficiency. The java GUI was created to allow users to enter their inputs(hints) and observe the solution given by the Prolog program easily, hence making the program more user-friendly. 
