@@ -21,7 +21,7 @@ sudoku(Rows) :-
     % each row has 9 elements
     maplist(same_length(Rows), Rows),
     append(Rows, Elements),
-    % elements are integers between 1 and 9
+    % the domain of all elements are integers from 1 to 9
     Elements ins 1..9,
     % each row has only one instance of each integer
     maplist(all_distinct, Rows),
